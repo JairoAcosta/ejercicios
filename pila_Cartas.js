@@ -81,6 +81,7 @@ function checkSizeOfStack(cards, stackSize){
     else{
         result=false;
     }
-    return console.log('el tamaño de el array es '+cards.length+' '+result);
+    //return console.log('el tamaño de el array es '+cards.length+' '+result);
+return console.log(`el tamaño del array es ${cards.length} ${result}`);
 }
-console.log(checkSizeOfStack([1,2,4,5],5));
+console.log(checkSizeOfStack([1,2,4,5,8],5));
